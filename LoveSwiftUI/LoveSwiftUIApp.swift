@@ -4,7 +4,7 @@ import SwiftUI
 struct LoveSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GitHubSeachView()
         }
     }
 }
