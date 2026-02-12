@@ -1,10 +1,3 @@
-//
-//  LoveSwiftUIUITests.swift
-//  LoveSwiftUIUITests
-//
-//  Created by 橋本純一 on 2026/02/12.
-//
-
 import XCTest
 
 final class LoveSwiftUIUITests: XCTestCase {
