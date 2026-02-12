@@ -2,13 +2,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack(alignment: .topLeading) { // 左上揃えに指定
+            Color.clear // 背景
+
+            Image(systemName: "star.fill")
+                .padding() // セーフエリアや余白の調整
         }
-        .padding()
+        .edgesIgnoringSafeArea(.all) // 必要に応じてセーフエリアを無視
+
     }
 }
 
