@@ -1,10 +1,3 @@
-//
-//  UserListView.swift
-//  LoveSwiftUI
-//
-//  Created by 橋本純一 on 2026/02/13.
-//
-
 import SwiftUI
 
 struct UserListView: View {
